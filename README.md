@@ -6,6 +6,7 @@ Go to Facebook's installation [tutorial](https://facebook.github.io/react-native
 1. React Native CLI Quickstart 
 2. Development OS: macOS
 3. Target OS: Android
+
 You should download Android Studio and Homebrew from their website before starting. 
 The following steps should help in debugging. 
 
