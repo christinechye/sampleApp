@@ -3,12 +3,17 @@ New to React Native? Follow this guide to learn and implement a functional React
 
 ## Installation
 Go to Facebook's installation [tutorial](https://facebook.github.io/react-native/docs/getting-started.html) and follow the steps with these configurations: 
-1. React Native CLI Quickstart 
-2. Development OS: macOS
-3. Target OS: Android
+- React Native CLI Quickstart 
+- Development OS: macOS
+- Target OS: Android
 
 You should download Android Studio and Homebrew from their website before starting. 
+
 The following steps should help in debugging. 
+1. Go to the home directory. 
+2. Type `react-native -v` to verify the version. 
+   - If you get `command not found` then the following steps that edit your `.bash_profile` may help. 
+  
 
 
 ## Manual 
