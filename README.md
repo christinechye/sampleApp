@@ -42,14 +42,14 @@ The following steps should help in debugging.
    - Have XCode open first.
    
 ## Other Notes 
-- The “-g” in npm install means that react native is installing globally 
-- Your .bash_profile is important because it gives you access to downloaded components like react native. 
-  - If you don’t have one the make one!!
+- The `-g` in npm install means that react native is installing globally 
+- Your `.bash_profile` is important because it gives you access to downloaded components like react native. 
+  - If you don’t have one then make one!!
   
-If you still get “command not found” when trying to init a React Native project, then it’s probably because you don’t have a PATH established to run React Native. If this is the case, please follow the following steps: 
+If you still get `command not found` when trying to init a React Native project, then it’s probably because you don’t have a PATH established to run React Native. If this is the case, please follow the following steps: 
 1. Type this command in Terminal to establish a PATH:
    - `source $HOME/.bash_profile`
-   - If “no such file found” error, then it is fine and ignore this command
+   - If `no such file found` error, then it is fine and ignore this command
 
 
 
