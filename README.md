@@ -13,6 +13,7 @@ The following steps should help in debugging.
 1. Go to the home directory. 
 2. Type `react-native -v` to verify the version. 
    - If you get `command not found` then the following steps that edit your `.bash_profile` may help. 
+     - `ls-la
   
 
 
