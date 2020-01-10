@@ -36,9 +36,9 @@ The following steps should help in debugging.
    - `npm install react-native-gesture-handler react-native-reanimated`
    - Now, you must link React Navigation with React Native: 
      - For iOS: (first, make sure you have cocoapods installed)
-            1. `cd ios`
-            2. `pod install`
-            3. `cd ..`
+            - `cd ios`
+            - `pod install`
+            - `cd ..`
      - For Android: 
             - Must make changes to MainActivity.java 
               - android>app>src>main>java>MainActivity.java
