@@ -31,13 +31,27 @@ The following steps should help in debugging.
          
 ## Starting your Project 
 1. Use terminal to change to the directory you want to make your project.
-2. 'react-native init sampleApp'
-3. `App.js` will be the file you need to edit at first.
-4. To run in Android: 
+2. Since we want to navigate between screens, we must install *React Navigation*. This gives us the ability to use Tabs, Containers, Stack Navigators, etc.. 
+   - `npm install react-navigation`
+   - `npm install react-native-gesture-handler react-native-reanimated`
+   - Now, you must link React Navigation with React Native: 
+     - For iOS: (first, make sure you have cocoapods installed)
+            1. `cd ios`
+            2. `pod install`
+            3. `cd ..`
+     - For Android: 
+            - Must make changes to MainActivity.java 
+              - android>app>src>main>java>MainActivity.java
+              - Copy the text from the link above and remove the ‘+’ signs 
+   - Now, if you go to package.json you can see react-native-gesture-handler and react-native-reanimated are in dependencies 
+*If you get an error “requiring unknown module…” then restart your metro bundler on terminal.
+3. 'react-native init sampleApp'
+4. `App.js` will be the file you need to edit at first.
+5. To run in Android: 
    - `react-native run-android`
    - You need to have the android emulator on from Android Studio running before you run the command, otherwise your computer might crash. 
      - Open Android Studio-> AVD Manager -> Create Virtual Device 
-5. To run in iOS: 
+6. To run in iOS: 
    - `react-native run-ios`
    - Have XCode open first.
    
