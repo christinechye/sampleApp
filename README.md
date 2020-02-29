@@ -5,7 +5,7 @@ New to React Native? Follow this guide to learn and implement a functional React
 Go to Facebook's installation [tutorial](https://facebook.github.io/react-native/docs/getting-started.html) and follow the steps with these configurations: 
 - React Native CLI Quickstart 
 - Development OS: macOS
-- Target OS: Android
+- Target OS: Android 
 
 You should download Android Studio and Homebrew from their website before starting. 
 
@@ -44,7 +44,7 @@ The following steps should help in debugging.
               - android>app>src>main>java>MainActivity.java
               - Copy the text from the link above and remove the ‘+’ signs 
    - Now, if you go to package.json you can see react-native-gesture-handler and react-native-reanimated are in dependencies 
-*If you get an error “requiring unknown module…” then restart your metro bundler on terminal.
+*If you get an error “requiring unknown module…” then restart your metro bundler on terminal.*
 3. 'react-native init sampleApp'
 4. `App.js` will be the file you need to edit at first.
 5. To run in Android: 
