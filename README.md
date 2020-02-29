@@ -43,9 +43,9 @@ The following steps should help in debugging.
             - Must make changes to MainActivity.java 
               - android>app>src>main>java>MainActivity.java
               - Copy the text from the link above and remove the ‘+’ signs 
-   - Now, if you go to package.json you can see react-native-gesture-handler and react-native-reanimated are in dependencies 
-If you get an error “requiring unknown module…” then restart your metro bundler on terminal.
-3. 'react-native init sampleApp'
+   - Now, if you go to package.json you can see react-native-gesture-handler and react-native-reanimated are in dependencies. 
+IMPORTANT: If you get an error “requiring unknown module…” then restart your metro bundler on terminal.
+3. `react-native init sampleApp`
 4. `App.js` will be the file you need to edit at first.
 5. To run in Android: 
    - `react-native run-android`
