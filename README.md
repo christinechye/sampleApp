@@ -5,14 +5,11 @@ New to React Native? Follow this guide to learn and implement a functional React
 This app's functionality is to add a bunch of cities to a list. It should look like the screenshots below.
 
 <img src="/images/screen1.png" width="300" height="650">
+<img src="/images/screen2.png" width="300" height="650">
+<img src="/images/screen3.png" width="300" height="650">
+<img src="/images/screen4.png" width="300" height="650">
 
-![AddCity Screen1](/images/screen1.png)
 
-![AddCity Screen2](/images/screen2.png)
-
-![Cities Screen1](/images/screen3.png)
-
-![Cities Screen2](/images/screen4.png)
 
 
 
