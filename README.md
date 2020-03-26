@@ -4,7 +4,7 @@ New to React Native? Follow this guide to learn and implement a functional React
 ---
 This app's functionality is to add a bunch of cities to a list. It should look like the screenshots below.
 
-<img src="/images/screen1.png" width="92" height="200">
+<img src="/images/screen1.png" width="300" height="650">
 
 ![AddCity Screen1](/images/screen1.png)
 
